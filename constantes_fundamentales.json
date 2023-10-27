@@ -1,0 +1,970 @@
+[
+    {
+        "constante": "c",
+        "valor": 299792458,
+        "unidad": "m/s",
+        "definicion": "Velocidad de la luz en el vacío"
+    },
+    {
+        "constante": "h",
+        "valor": 6.62607004e-34,
+        "unidad": "J s",
+        "definicion": "Constante de Planck"
+    },
+    {
+        "constante": "G",
+        "valor": 6.67408e-11,
+        "unidad": "m^3 kg^-1 s^-2",
+        "definicion": "Constante de gravitación universal"
+    },
+    {
+        "constante": "k",
+        "valor": 1.38064852e-23,
+        "unidad": "J K^-1",
+        "definicion": "Constante de Boltzmann"
+    },
+    {
+        "constante": "e",
+        "valor": 1.6021766208e-19,
+        "unidad": "C",
+        "definicion": "Carga elemental"
+    },
+    {
+        "constante": "ε₀",
+        "valor": 8.854187817620389e-12,
+        "unidad": "F m^-1",
+        "definicion": "Permitividad del vacío"
+    },
+    {
+        "constante": "μ₀",
+        "valor": 0.000007853981633974483,
+        "unidad": "H m^-1",
+        "definicion": "Permeabilidad magnética del vacío"
+    },
+    {
+        "constante": "α",
+        "valor": 7.297352569e-3,
+        "unidad": "",
+        "definicion": "Constante de estructura fina"
+    },
+    {
+        "constante": "π",
+        "valor": 3.141592653589793,
+        "unidad": "",
+        "definicion": "Número pi"
+    },
+    {
+        "constante": "σ",
+        "valor": 5.6703737e-8,
+        "unidad": "W m^-2 K^-4",
+        "definicion": "Constante de Stefan-Boltzmann"
+    },
+    {
+        "constante": "k_B",
+        "valor": 1.38064852e-23,
+        "unidad": "J K^-1",
+        "definicion": "Constante de Boltzmann"
+    },
+    {
+        "constante": "R",
+        "valor": 8.314462175081987e-3,
+        "unidad": "J K^-1 mol^-1",
+        "definicion": "Constante universal de los gases ideales"
+    },
+    {
+        "constante": "Na",
+        "valor": 6.02214076e23,
+        "unidad": "mol^-1",
+        "definicion": "Número de Avogadro"
+    },
+    {
+        "constante": "m_e",
+        "valor": 9.1093837015e-31,
+        "unidad": "kg",
+        "definicion": "Masa del electrón"
+    },
+    {
+        "constante": "m_p",
+        "valor": 1.67262192369e-27,
+        "unidad": "kg",
+        "definicion": "Masa del protón"
+    },
+    {
+        "constante": "m_n",
+        "valor": 1.67492749804e-27,
+        "unidad": "kg",
+        "definicion": "Masa del neutrón"
+    },
+    {
+        "constante": "α_f",
+        "valor": 1.3703599911e-15,
+        "unidad": "m",
+        "definicion": "Constante de dispersión de Thomson"
+    },
+    {
+        "constante": "α_em",
+        "valor": 7.297352569e-3,
+        "unidad": "",
+        "definicion": "Constante de estructura fina electromagnética"
+    },
+    {
+        "constante": "α_p",
+        "valor": 0.00729735257,
+        "unidad": "",
+        "definicion": "Constante de estructura fina nuclear"
+    },
+    {
+        "constante": "α_s",
+        "valor": 0.118,
+        "unidad": "",
+        "definicion": "Constante de acoplamiento fuerte"
+    },
+    {
+        "constante": "α_w",
+        "valor": 80.385,
+        "unidad": "",
+        "definicion": "Constante de acoplamiento débil"
+    },
+    {
+        "constante": "α_g",
+        "valor": 1.1724572498e-5,
+        "unidad": "GeV^-2",
+        "definicion": "Constante de acoplamiento gravitatorio"
+    },
+    {
+        "constante": "β",
+        "valor": 0.7071067811865476,
+        "unidad": "",
+        "definicion": "Constante de Dirac"
+    },
+    {
+        "constante": "β_c",
+        "valor": 1.973269787e11,
+        "unidad": "m^-1",
+        "definicion": "Constante de ciclotrón del protón"
+    },
+    {
+        "constante": "β_n",
+        "valor": 1.97492749804e11,
+        "unidad": "m^-1",
+        "definicion": "Constante de ciclotrón del neutrón"
+    },
+    {
+        "constante": "β_m",
+        "valor": 1.9732718187e11,
+        "unidad": "m^-1",
+        "definicion": "Constante de ciclotrón del muón"
+    },
+    {
+        "constante": "β_e",
+        "valor": 2.817940913e14,
+        "unidad": "m^-1",
+        "definicion": "Constante de ciclotrón del electrón"
+    },
+    {
+        "constante": "c_1",
+        "valor": 1.2755743999999999,
+        "unidad": "GeV",
+        "definicion": "Constante de acoplamiento fuerte de primer orden"
+    },
+    {
+        "constante": "c_2",
+        "valor": -0.127,
+        "unidad": "GeV^2",
+        "definicion": "Constante de acoplamiento fuerte de segundo orden"
+    },
+    {
+        "constante": "c_3",
+        "valor": 1.43,
+        "unidad": "GeV^3",
+        "definicion": "Constante de acoplamiento fuerte de tercer orden"
+    },
+    {
+        "constante": "c_4",
+        "valor": -0.003,
+        "unidad": "GeV^4",
+        "definicion": "Constante de acoplamiento fuerte de cuarto orden"
+    },
+    {
+        "constante": "c_5",
+        "valor": 0.002,
+        "unidad": "GeV^5",
+        "definicion": "Constante de acoplamiento fuerte de quinto orden"
+    },
+    {        "constante": "c_6",
+        "valor": -0.0002,
+        "unidad": "GeV^6",
+        "definicion": "Constante de acoplamiento fuerte de sexto orden"
+    },
+    {
+        "constante": "c_7",
+        "valor": 0.0002,
+        "unidad": "GeV^7",
+        "definicion": "Constante de acoplamiento fuerte de séptimo orden"
+    },
+    {
+        "constante": "c_8",
+        "valor": -0.00002,
+        "unidad": "GeV^8",
+        "definicion": "Constante de acoplamiento fuerte de octavo orden"
+    },
+    {
+        "constante": "c_9",
+        "valor": 0.00002,
+        "unidad": "GeV^9",
+        "definicion": "Constante de acoplamiento fuerte de noveno orden"
+    },
+    {
+        "constante": "c_10",
+        "valor": -0.000002,
+        "unidad": "GeV^10",
+        "definicion": "Constante de acoplamiento fuerte de décimo orden"
+    },
+    {
+        "constante": "c_11",
+        "valor": 0.000002,
+        "unidad": "GeV^11",
+        "definicion": "Constante de acoplamiento fuerte de undécimo orden"
+    },
+    {
+        "constante": "c_12",
+        "valor": -0.0000002,
+        "unidad": "GeV^12",
+        "definicion": "Constante de acoplamiento fuerte de duodécimo orden"
+    },
+    {
+        "constante": "c_13",
+        "valor": 0.0000002,
+        "unidad": "GeV^13",
+        "definicion": "Constante de acoplamiento fuerte de decimotercer orden"
+    },
+    {
+        "constante": "c_14",
+        "valor": -0.00000002,
+        "unidad": "GeV^14",
+        "definicion": "Constante de acoplamiento fuerte de decimocuarto orden"
+    },
+    {
+        "constante": "c_15",
+        "valor": 0.00000002,
+        "unidad": "GeV^15",
+        "definicion": "Constante de acoplamiento fuerte de decimoquinto orden"
+    },
+    {
+        "constante": "c_16",
+        "valor": -0.000000002,
+        "unidad": "GeV^16",
+        "definicion": "Constante de acoplamiento fuerte de decimosexto orden"
+    },
+    {
+        "constante": "c_17",
+        "valor": 0.000000002,
+        "unidad": "GeV^17",
+        "definicion": "Constante de acoplamiento fuerte de decimoséptimo orden"
+    },
+    {
+        "constante": "c_18",
+        "valor": -0.0000000002,
+        "unidad": "GeV^18",
+        "definicion": "Constante de acoplamiento fuerte de decimoctavo orden"
+    },
+    {
+        "constante": "c_19",
+        "valor": 0.0000000002,
+        "unidad": "GeV^19",
+        "definicion": "Constante de acoplamiento fuerte de decimonoveno orden"
+    },
+    {
+        "constante": "c_20",
+        "valor": -0.00000000002,
+        "unidad": "GeV^20",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo orden"
+    },
+    {
+        "constante": "c_21",
+        
+        "valor": 0.00000000002,
+        "unidad": "GeV^21",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo primer orden"
+    },
+    {
+        "constante": "c_22",
+        "valor": -0.000000000002,
+        "unidad": "GeV^22",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo segundo orden"
+    },
+    {
+        "constante": "c_23",
+        "valor": 0.000000000002,
+        "unidad": "GeV^23",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo tercer orden"
+    },
+    {
+        "constante": "c_24",
+        "valor": -0.0000000000002,
+        "unidad": "GeV^24",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo cuarto orden"
+    },
+    {
+        "constante": "c_25",
+        "valor": 0.0000000000002,
+        "unidad": "GeV^25",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo quinto orden"
+    },
+    {
+        "constante": "c_26",
+        "valor": -0.00000000000002,
+        "unidad": "GeV^26",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo sexto orden"
+    },
+    {
+        "constante": "c_27",
+        "valor": 0.00000000000002,
+        "unidad": "GeV^27",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo séptimo orden"
+    },
+    {
+        "constante": "c_28",
+        "valor": -0.000000000000002,
+        "unidad": "GeV^28",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo octavo orden"
+    },
+    {
+        "constante": "c_29",
+        "valor": 0.000000000000002,
+        "unidad": "GeV^29",
+        "definicion": "Constante de acoplamiento fuerte de vigésimo noveno orden"
+    },
+    {
+        "constante": "c_30",
+        "valor": -0.0000000000000002,
+        "unidad": "GeV^30",
+        "definicion": "Constante de acoplamiento fuerte de trigésimo orden"
+    },
+    {
+        "constante": "c_31",
+        "valor": 0.0000000000000002,
+        "unidad": "GeV^31",
+        "definicion": "Constante de acoplamiento fuerte de trigésimo primer orden"
+    },
+    {
+        "constante": "c_32",
+        "valor": -0.00000000000000002,
+        "unidad": "GeV^32",
+        "definicion": "Constante de acoplamiento fuerte de trigésimo segundo orden"
+    },
+    {
+        "constante": "c_33",
+        "valor": 0.00000000000000002,
+        "unidad": "GeV^33",
+        "definicion": "Constante de acoplamiento fuerte de trigésimo tercer orden"
+    },
+    {
+        "constante": "c_34",
+        "valor": -0.000000000000000002,
+        "unidad": "GeV^34",
+        "definicion": "Constante de acoplamiento fuerte de trigésimo cuarto orden"
+    },
+    {
+        "constante": "e_0",
+        "valor": 8.854187817620389e-12,
+        "unidad": "F m^-1",
+        "definicion": "Permitividad del vacío"
+    },
+    {
+        "constante": "µ_0",
+        "valor": 0.000007853981633974483,
+        "unidad": "H m^-1",
+        "definicion": "Permeabilidad magnética del vacío"
+    },
+    {
+        "constante": "G_F",
+        "valor": 1.1663787e-5,
+        "unidad": "GeV^-2",
+        "definicion": "Constante de Fermi"
+    },
+    {
+        "constante": "m_W",
+        "valor": 80.385,
+        "unidad": "GeV",
+        "definicion": "Masa del bosón W"
+    },
+    {
+        "constante": "m_Z",
+        "valor": 91.1876,
+        "unidad": "GeV",
+        "definicion": "Masa del bosón Z"
+    },
+    {
+        "constante": "m_h",
+        "valor": 125.10,
+        "unidad": "GeV",
+        "definicion": "Masa del bosón de Higgs"
+    },
+    {
+        "constante": "sinθ_W",
+        "valor": 0.4252,
+        "unidad": "",
+        "definicion": "Seno del ángulo de Weinberg"
+    },
+    {
+        "constante": "cosθ_W",
+        "valor": 0.9048,
+        "unidad": "",
+        "definicion": "Coseno del ángulo de Weinberg"
+    },
+    {
+        "constante": "e_pm",
+        "valor": 1.6021766208e-19,
+        "unidad": "C",
+        "definicion": "Carga del electrón y el positrón"
+    },
+    {
+        "constante": "g_μ",
+        "valor": 2.2235080484e-16,
+        "unidad": "GeV^-2",
+        "definicion": "Constante de estructura fina débil"
+    },
+    {
+        "constante": "g_μ_′",
+        "valor": 0,
+        "unidad": "GeV^-2",
+        "definicion": "Constante de estructura fina débil giratoria"
+    },
+    {
+        "constante": "g_A",
+        "valor": -1.2727017,
+        "unidad": "",
+        "definicion": "Constante axial débil"
+    },
+    {
+        "constante": "g_V",
+        "valor": 1.2727017,
+        "unidad": "",
+        "definicion": "Constante vectorial débil"
+    },
+    {
+        "constante": "v_ud",
+        "valor": 0.97427,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla up-down"
+    },
+    {
+        "constante": "v_us",
+        "valor": 0.2253,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla up-strange"
+    },
+    {
+        "constante": "v_cd",
+        "valor": 0.2253,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla charm-down"
+    },
+    {
+        "constante": "v_cs",
+        "valor": 0.97427,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla charm-strange"
+    },
+    {
+        "constante": "v_tb",
+        "valor": 0.99914622,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla top-bottom"
+    },
+    {
+        "constante": "m_π",
+        "valor": 0.13957018,
+        "unidad": "GeV",
+        "definicion": "Masa del pion"
+    },
+    {
+        "constante": "m_K",
+        "valor": 0.49367701,
+        "unidad": "GeV",
+        "definicion": "Masa del kaon"
+    },
+    {
+        "constante": "m_D",
+        "valor": 1.86483,
+        "unidad": "GeV",
+        "definicion": "Masa del meson D"
+    },
+    {
+        "constante": "m_B",
+        "valor": 5.27958,
+        "unidad": "GeV",
+        "definicion": "Masa del meson B"
+    },
+    {
+        "constante": "m_t",
+        "valor": 173.21,
+        "unidad": "GeV",
+        "definicion": "Masa del quark top"
+    },
+    {
+        "constante": "m_μ",
+        "valor": 0.10565837,
+        "unidad": "GeV",
+        "definicion": "Masa del muón"
+    },
+    {
+        "constante": "m_e",
+        "valor": 0.5109989461,
+        "unidad": "MeV",
+        "definicion": "Masa del electrón"
+    },
+    {
+        "constante": "m_n",
+        "valor": 0.9395654179913947,
+        "unidad": "GeV",
+        "definicion": "Masa del neutrón"
+    },
+    {
+        "constante": "m_p",
+        "valor": 0.9382720464687741,
+        "unidad": "GeV",
+        "definicion": "Masa del protón"
+    },
+    {
+        "constante": "m_γ",
+        "valor": 0,
+        "unidad": "GeV",
+        "definicion": "Masa del fotón"
+    },
+    {
+        "constante": "G_N",
+        "valor": 6.67408e-11,
+        "unidad": "m^3 kg^-1 s^-2",
+        "definicion": "Constante de gravitación universal"
+    },
+    {
+        "constante": "m_Λ",
+        "valor": 1.115683,
+        "unidad": "GeV",
+        "definicion": "Masa del lambda barión"
+    },
+    {
+        "constante": "m_Σ0",
+        "valor": 1.192642,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión neutro"
+    },
+    {
+        "constante": "m_Σ+",
+        "valor": 1.197449,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión positivo"
+    },
+    {
+        "constante": "m_Σ-",
+        "valor": 1.197449,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión negativo"
+    },
+    {
+        "constante": "m_Ξ0",
+        "valor": 1.314977,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión neutro"
+    },
+    {
+        "constante": "m_Ξ+",
+        "valor": 1.32171,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión positivo"
+    },
+    {
+        "constante": "m_Ξ-",
+        "valor": 1.32171,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión negativo"
+    },
+    {
+        "constante": "m_Ω0",
+        "valor": 1.672623,
+        "unidad": "GeV",
+        "definicion": "Masa del Omega barión neutro"
+    },
+    {
+        "constante": "m_K_0",
+        "valor": 0.497677,
+        "unidad": "MeV",
+        "definicion": "Masa del kaon neutro"
+    },
+    {
+        "constante": "m_K_0_bar",
+        "valor": 0.497677,
+        "unidad": "MeV",
+        "definicion": "Masa del antikaon neutro"
+    },
+    {
+        "constante": "m_D_0",
+        "valor": 1.86483,
+        "unidad": "GeV",
+        "definicion": "Masa del meson D neutro"
+    },
+    {
+        "constante": "m_D_0_bar",
+        "valor": 1.86483,
+        "unidad": "GeV",
+        "definicion": "Masa del antimeson D neutro"
+    },
+    {
+        "constante": "m_B_0",
+        "valor": 5.27958,
+        "unidad": "GeV",
+        "definicion": "Masa del meson B neutro"
+    },
+    {
+        "constante": "m_B_0_bar",
+        "valor": 5.27958,
+        "unidad": "GeV",
+        "definicion": "Masa del antimeson B neutro"
+    },
+    {
+        "constante": "m_Λ_c",
+        "valor": 2.28646,
+        "unidad": "GeV",
+        "definicion": "Masa del lambda barión charmado"
+    },
+    {
+        "constante": "m_Σ_c+",
+        "valor": 2.45299,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión charmado positivo"
+    },
+    {
+        "constante": "m_Σ_c0",
+        "valor": 2.45352,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión charmado neutro"
+    },
+    {
+        "constante": "m_Ξ_c+",
+        "valor": 2.46903,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión charmado positivo"
+    },
+    {
+        "constante": "m_Ξ_c0",
+        "valor": 2.47037,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión charmado neutro"
+    },
+    {
+        "constante": "m_Ω_c0",
+        "valor": 2.69594,
+        "unidad": "GeV",
+        "definicion": "Masa del Omega barión charmado neutro"
+    },
+    {
+        "constante": "m_Λ_b",
+        "valor": 5.6194,
+        "unidad": "GeV",
+        "definicion": "Masa del lambda barión bottomado"
+    },
+    {
+        
+        "constante": "m_Σ_b+",
+        "valor": 5.80732,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión bottomado positivo"
+    },
+    {
+        "constante": "m_Σ_b0",
+        "valor": 5.80933,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión bottomado neutro"
+    },
+    {
+        "constante": "m_Ξ_b+",
+        "valor": 5.81871,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión bottomado positivo"
+    },
+    {
+        "constante": "m_Ξ_b0",
+        "valor": 5.8252,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión bottomado neutro"
+    },
+    {
+        "constante": "m_Ω_b-",
+        "valor": 6.16829,
+        "unidad": "GeV",
+        "definicion": "Masa del Omega barión bottomado negativo"
+    },
+    {
+        "constante": "m_t_quark",
+        "valor": 173.21,
+        "unidad": "GeV",
+        "definicion": "Masa del quark top"
+    },
+    {
+        "constante": "m_b_quark",
+        "valor": 4.18,
+        "unidad": "GeV",
+        "definicion": "Masa del quark bottom"
+    },
+    {
+        "constante": "m_c_quark",
+        "valor": 1.275,
+        "unidad": "GeV",
+        "definicion": "Masa del quark charm"
+    },
+    {
+        "constante": "m_u_quark",
+        "valor": 0.0023,
+        "unidad": "GeV",
+        "definicion": "Masa del quark up"
+    },
+    {
+        "constante": "m_d_quark",
+        "valor": 0.0047,
+        "unidad": "GeV",
+        "definicion": "Masa del quark down"
+    },
+    {
+        "constante": "m_s_quark",
+        "valor": 0.095,
+        "unidad": "GeV",
+        "definicion": "Masa del quark strange"
+    },
+    {
+        "constante": "m_gluon",
+        "valor": 0,
+        "unidad": "GeV",
+        "definicion": "Masa del gluón"
+    },
+    {
+        "constante": "m_higgs",
+        "valor": 125.10,
+        "unidad": "GeV",
+        "definicion": "Masa del bosón de Higgs"
+    },
+    {
+        "constante": "α_s",
+        "valor": 0.118,
+        "unidad": "",
+        "definicion": "Constante de acoplamiento fuerte"
+    },
+    {
+        "constante": "α_em",
+        "valor": 7.297352569e-3,
+        "unidad": "",
+        "definicion": "Constante de estructura fina electromagnética"
+    },
+    {
+        "constante": "α_p",
+        "valor": 0.00729735257,
+        "unidad": "",
+        "definicion": "Constante de estructura fina nuclear"
+    },
+    {
+        "constante": "α_g",
+        "valor": 0.0078125,
+        "unidad": "",
+        "definicion": "Constante de acoplamiento fuerte giratoria"
+    },
+    {
+        "constante": "G_F",
+        "valor": 1.1663787e-5,
+        "unidad": "GeV^-2",
+        "definicion": "Constante de Fermi"
+    },
+    {
+        "constante": "m_W",
+        "valor": 80.385,
+        "unidad": "GeV",
+        "definicion": "Masa del bosón W"
+    },
+    {
+        "constante": "m_Z",
+        "valor": 91.1876,
+        "unidad": "GeV",
+        "definicion": "Masa del bosón Z"
+    },
+    {
+        "constante": "sinθ_W",
+        "valor": 0.4252,
+        "unidad": "",
+        "definicion": "Seno del ángulo de Weinberg"
+    },
+    {
+        "constante": "cosθ_W",
+        "valor": 0.9048,
+        "unidad": "",
+        "definicion": "Coseno del ángulo de Weinberg"
+    },
+    {
+        "constante": "e_pm",
+        "valor": 1.6021766208e-19,
+        "unidad": "C",
+        "definicion": "Carga del electrón y el positrón"
+    },
+    {
+        "constante": "g_μ",
+        "valor": 2.2235080484e-16,
+        "unidad": "GeV^-2",
+        "definicion": "Constante de estructura fina débil"
+    },
+    {
+        "constante": "g_μ_′",
+        "valor": 0,
+        "unidad": "GeV^-2",
+        "definicion": "Constante de estructura fina débil giratoria"
+    },
+    {
+        "constante": "g_A",
+        "valor": -1.2727017,
+        "unidad": "",
+        "definicion": "Constante axial débil"
+    },
+    {
+        "constante": "g_V",
+        "valor": 1.2727017,
+        "unidad": "",
+        "definicion": "Constante vectorial débil"
+    },
+    {
+        "constante": "v_ud",
+        "valor": 0.97427,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla up-down"
+    },
+    {
+        "constante": "v_us",
+        "valor": 0.2253,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla up-strange"
+    },
+    {
+        "constante": "v_cd",
+        "valor": 0.2253,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla charm-down"
+    },
+    {
+        "constante": "v_cs",
+        "valor": 0.97427,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla charm-strange"
+    },
+    {
+        "constante": "v_tb",
+        "valor": 0.99914622,
+        "unidad": "",
+        "definicion": "Coeficiente de mezcla top-bottom"
+    },
+    {
+        "constante": "m_π",
+        "valor": 0.13957018,
+        "unidad": "GeV",
+        "definicion": "Masa del pion"
+    },
+    {
+        "constante": "m_K",
+        "valor": 0.49367701,
+        "unidad": "GeV",
+        "definicion": "Masa del kaon"
+    },
+    {
+        "constante": "m_D",
+        "valor": 1.86483,
+        "unidad": "GeV",
+        "definicion": "Masa del meson D"
+    },
+ 
+    {
+        "constante": "m_D",
+        "valor": 1.86483,
+        "unidad": "GeV",
+        "definicion": "Masa del meson D"
+    },
+    {
+        "constante": "m_B",
+        "valor": 5.27958,
+        "unidad": "GeV",
+        "definicion": "Masa del meson B"
+    },
+    {
+        "constante": "m_t",
+        "valor": 173.21,
+        "unidad": "GeV",
+        "definicion": "Masa del quark top"
+    },
+    {
+        "constante": "m_μ",
+        "valor": 0.10565837,
+        "unidad": "GeV",
+        "definicion": "Masa del muón"
+    },
+    {
+        "constante": "m_e",
+        "valor": 0.5109989461,
+        "unidad": "MeV",
+        "definicion": "Masa del electrón"
+    },
+    {
+        "constante": "m_n",
+        "valor": 0.9395654179913947,
+        "unidad": "GeV",
+        "definicion": "Masa del neutrón"
+    },
+    {
+        "constante": "m_p",
+        "valor": 0.9382720464687741,
+        "unidad": "GeV",
+        "definicion": "Masa del protón"
+    },
+    {
+        "constante": "m_γ",
+        "valor": 0,
+        "unidad": "GeV",
+        "definicion": "Masa del fotón"
+    },
+    {
+        "constante": "G_N",
+        "valor": 6.67408e-11,
+        "unidad": "m^3 kg^-1 s^-2",
+        "definicion": "Constante de gravitación universal"
+    },
+    {
+        "constante": "m_Λ",
+        "valor": 1.115683,
+        "unidad": "GeV",
+        "definicion": "Masa del lambda barión"
+    },
+    {
+        "constante": "m_Σ0",
+        "valor": 1.192642,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión neutro"
+    },
+    {
+        "constante": "m_Σ+",
+        "valor": 1.197449,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión positivo"
+    },
+    {
+        "constante": "m_Σ-",
+        "valor": 1.197449,
+        "unidad": "GeV",
+        "definicion": "Masa del Sigma barión negativo"
+    },
+    {
+        "constante": "m_Ξ0",
+        "valor": 1.314977,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión neutro"
+    },
+    {
+        "constante": "m_Ξ+",
+        "valor": 1.32171,
+        "unidad": "GeV",
+        "definicion": "Masa del Xi barión positivo"
+    }
+]
