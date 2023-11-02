@@ -1,6 +1,9 @@
 import json
+<<<<<<< HEAD
 import pandas as pd
 import matplotlib.pyplot as plt
+=======
+>>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
 
 """
 El proposito de este script es inicializar una estructura de datos que contenga un número determinado de constantes universales
@@ -15,14 +18,18 @@ Me gustaría añadir el resto de ellas, a ver si encuentro un json con el format
 """
 
 
+<<<<<<< HEAD
 def createDFConstantesFundamentales():
     return pd.read_json("constantes_fundamentales.json")
 
 
+=======
+>>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
 def main():
     # Definimos las dimensiones del array
     num_dimensions = 11
 
+<<<<<<< HEAD
     dfConstantes = createDFConstantesFundamentales()
     print(dfConstantes)
     dfMultiverse = createMultiverse(num_dimensions)
@@ -42,6 +49,20 @@ def createMultiverse(num_dimensions):
     array = [[{} for _ in range(num_constantes)] for _ in range(num_dimensions)]
     initialize_Dimensions(array, constantes, num_dimensions)
     return pd.DataFrame(array)
+=======
+    # Cargamos las constantes fundamentales
+    with open("constantes_fundamentales.json", "r") as f:
+        constantes = json.load(f)
+
+    num_constantes = len(constantes)
+
+    # Inicializamos el array
+    array = [[{} for _ in range(num_constantes)] for _ in range(num_dimensions)]
+
+    initialize_Dimensions(array, constantes, num_dimensions)
+
+    show_constants(array, num_constantes, num_dimensions)
+>>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
 
 
 def show_constants(array, num_constantes, num_dimensions):
