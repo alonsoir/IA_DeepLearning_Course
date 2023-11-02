@@ -1,0 +1,426 @@
+[2023-10-31T09:32:30.595686 3922 ] === CCACHE master.971f1183 STARTED =========================================
+[2023-10-31T09:32:30.595690 3924 ] === CCACHE master.971f1183 STARTED =========================================
+[2023-10-31T09:32:30.595767 3927 ] === CCACHE master.971f1183 STARTED =========================================
+[2023-10-31T09:32:30.595695 3926 ] === CCACHE master.971f1183 STARTED =========================================
+[2023-10-31T09:32:30.595826 3923 ] === CCACHE master.971f1183 STARTED =========================================
+[2023-10-31T09:32:30.595827 3925 ] === CCACHE master.971f1183 STARTED =========================================
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) absolute_paths_in_stderr = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) base_dir = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (environment) cache_dir = /Users/aironman/Library/Caches/Nuitka/ccache
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) compiler = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) compiler_check = mtime
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) compiler_type = auto
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) compression = true
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) compression_level = 0
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) cpp_extension = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) debug = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) debug_dir = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) depend_mode = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) direct_mode = true
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) disable = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) extra_files_to_hash = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) file_clone = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) hard_link = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) hash_dir = true
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) ignore_headers_in_manifest = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) ignore_options = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) inode_cache = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) keep_comments_cpp = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) limit_multiple = 0.8
+[2023-10-31T09:32:30.595686 3922 ] Config: (environment) log_file = /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build/ccache-3911.txt
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) max_files = 0
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) max_size = 5.0G
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) path = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) pch_external_checksum = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) prefix_command = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) prefix_command_cpp = 
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) read_only = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) read_only_direct = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) recache = false
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) run_second_cpp = true
+[2023-10-31T09:32:30.595686 3922 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) stats = true
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) temporary_dir = /Users/aironman/Library/Caches/Nuitka/ccache/tmp
+[2023-10-31T09:32:30.595686 3922 ] Config: (default) umask = 
+[2023-10-31T09:32:30.595859 3922 ] Command line: /Users/aironman/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __constants.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src __constants.c
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) absolute_paths_in_stderr = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) base_dir = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (environment) cache_dir = /Users/aironman/Library/Caches/Nuitka/ccache
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) compiler = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) compiler_check = mtime
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) compiler_type = auto
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) compression = true
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) compression_level = 0
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) cpp_extension = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) debug = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) debug_dir = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) depend_mode = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) direct_mode = true
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) disable = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) extra_files_to_hash = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) file_clone = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) hard_link = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) hash_dir = true
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) ignore_headers_in_manifest = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) ignore_options = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) inode_cache = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) keep_comments_cpp = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) limit_multiple = 0.8
+[2023-10-31T09:32:30.595767 3927 ] Config: (environment) log_file = /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build/ccache-3911.txt
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) max_files = 0
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) max_size = 5.0G
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) path = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) pch_external_checksum = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) prefix_command = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) prefix_command_cpp = 
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) read_only = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) read_only_direct = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) recache = false
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) run_second_cpp = true
+[2023-10-31T09:32:30.595767 3927 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) stats = true
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) temporary_dir = /Users/aironman/Library/Caches/Nuitka/ccache/tmp
+[2023-10-31T09:32:30.595767 3927 ] Config: (default) umask = 
+[2023-10-31T09:32:30.595908 3927 ] Command line: /Users/aironman/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/CompiledFunctionType.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2023-10-31T09:32:30.595927 3922 ] Hostname: MacBook-Pro-de-Alonso.local
+[2023-10-31T09:32:30.595931 3927 ] Hostname: MacBook-Pro-de-Alonso.local
+[2023-10-31T09:32:30.595939 3922 ] Working directory: /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) absolute_paths_in_stderr = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) base_dir = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (environment) cache_dir = /Users/aironman/Library/Caches/Nuitka/ccache
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) compiler = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) compiler_check = mtime
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) compiler_type = auto
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) compression = true
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) compression_level = 0
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) cpp_extension = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) debug = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) debug_dir = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) depend_mode = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) direct_mode = true
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) disable = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) extra_files_to_hash = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) file_clone = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) hard_link = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) hash_dir = true
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) ignore_headers_in_manifest = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) ignore_options = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) inode_cache = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) keep_comments_cpp = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) limit_multiple = 0.8
+[2023-10-31T09:32:30.595690 3924 ] Config: (environment) log_file = /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build/ccache-3911.txt
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) max_files = 0
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) max_size = 5.0G
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) path = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) pch_external_checksum = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) prefix_command = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) prefix_command_cpp = 
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) read_only = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) read_only_direct = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) recache = false
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) run_second_cpp = true
+[2023-10-31T09:32:30.595690 3924 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) stats = true
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) temporary_dir = /Users/aironman/Library/Caches/Nuitka/ccache/tmp
+[2023-10-31T09:32:30.595690 3924 ] Config: (default) umask = 
+[2023-10-31T09:32:30.595935 3924 ] Command line: /Users/aironman/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __loader.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src __loader.c
+[2023-10-31T09:32:30.595944 3927 ] Working directory: /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build
+[2023-10-31T09:32:30.595948 3922 ] Compiler type: clang
+[2023-10-31T09:32:30.595979 3924 ] Hostname: MacBook-Pro-de-Alonso.local
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) absolute_paths_in_stderr = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) base_dir = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (environment) cache_dir = /Users/aironman/Library/Caches/Nuitka/ccache
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) compiler = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) compiler_check = mtime
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) compiler_type = auto
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) compression = true
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) compression_level = 0
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) cpp_extension = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) debug = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) debug_dir = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) depend_mode = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) direct_mode = true
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) disable = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) extra_files_to_hash = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) file_clone = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) hard_link = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) hash_dir = true
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) ignore_headers_in_manifest = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) ignore_options = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) inode_cache = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) keep_comments_cpp = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) limit_multiple = 0.8
+[2023-10-31T09:32:30.595695 3926 ] Config: (environment) log_file = /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build/ccache-3911.txt
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) max_files = 0
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) max_size = 5.0G
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) path = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) pch_external_checksum = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) prefix_command = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) prefix_command_cpp = 
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) read_only = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) read_only_direct = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) recache = false
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) run_second_cpp = true
+[2023-10-31T09:32:30.595695 3926 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) stats = true
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) temporary_dir = /Users/aironman/Library/Caches/Nuitka/ccache/tmp
+[2023-10-31T09:32:30.595695 3926 ] Config: (default) umask = 
+[2023-10-31T09:32:30.595955 3926 ] Command line: /Users/aironman/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/MainProgram.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src static_src/MainProgram.c
+[2023-10-31T09:32:30.596007 3927 ] Compiler type: clang
+[2023-10-31T09:32:30.595997 3924 ] Working directory: /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) absolute_paths_in_stderr = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) base_dir = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (environment) cache_dir = /Users/aironman/Library/Caches/Nuitka/ccache
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) compiler = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) compiler_check = mtime
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) compiler_type = auto
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) compression = true
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) compression_level = 0
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) cpp_extension = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) debug = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) debug_dir = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) depend_mode = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) direct_mode = true
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) disable = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) extra_files_to_hash = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) file_clone = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) hard_link = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) hash_dir = true
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) ignore_headers_in_manifest = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) ignore_options = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) inode_cache = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) keep_comments_cpp = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) limit_multiple = 0.8
+[2023-10-31T09:32:30.595826 3923 ] Config: (environment) log_file = /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build/ccache-3911.txt
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) max_files = 0
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) max_size = 5.0G
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) path = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) pch_external_checksum = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) prefix_command = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) prefix_command_cpp = 
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) read_only = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) read_only_direct = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) recache = false
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) run_second_cpp = true
+[2023-10-31T09:32:30.595826 3923 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) stats = true
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) temporary_dir = /Users/aironman/Library/Caches/Nuitka/ccache/tmp
+[2023-10-31T09:32:30.595826 3923 ] Config: (default) umask = 
+[2023-10-31T09:32:30.596005 3923 ] Command line: /Users/aironman/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __helpers.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src __helpers.c
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) absolute_paths_in_stderr = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) base_dir = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (environment) cache_dir = /Users/aironman/Library/Caches/Nuitka/ccache
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) compiler = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) compiler_check = mtime
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) compiler_type = auto
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) compression = true
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) compression_level = 0
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) cpp_extension = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) debug = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) debug_dir = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) depend_mode = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) direct_mode = true
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) disable = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) extra_files_to_hash = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) file_clone = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) hard_link = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) hash_dir = true
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) ignore_headers_in_manifest = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) ignore_options = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) inode_cache = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) keep_comments_cpp = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) limit_multiple = 0.8
+[2023-10-31T09:32:30.595827 3925 ] Config: (environment) log_file = /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build/ccache-3911.txt
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) max_files = 0
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) max_size = 5.0G
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) path = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) pch_external_checksum = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) prefix_command = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) prefix_command_cpp = 
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) read_only = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) read_only_direct = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) recache = false
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) run_second_cpp = true
+[2023-10-31T09:32:30.595827 3925 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) stats = true
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) temporary_dir = /Users/aironman/Library/Caches/Nuitka/ccache/tmp
+[2023-10-31T09:32:30.595827 3925 ] Config: (default) umask = 
+[2023-10-31T09:32:30.596040 3925 ] Command line: /Users/aironman/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o module.__main__.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src module.__main__.c
+[2023-10-31T09:32:30.596091 3925 ] Hostname: MacBook-Pro-de-Alonso.local
+[2023-10-31T09:32:30.596102 3925 ] Working directory: /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build
+[2023-10-31T09:32:30.596110 3925 ] Compiler type: clang
+[2023-10-31T09:32:30.596049 3924 ] Compiler type: clang
+[2023-10-31T09:32:30.596039 3926 ] Hostname: MacBook-Pro-de-Alonso.local
+[2023-10-31T09:32:30.596141 3922 ] Source file: __constants.c
+[2023-10-31T09:32:30.596070 3923 ] Hostname: MacBook-Pro-de-Alonso.local
+[2023-10-31T09:32:30.596161 3922 ] Object file: __constants.o
+[2023-10-31T09:32:30.596163 3926 ] Working directory: /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build
+[2023-10-31T09:32:30.596176 3923 ] Working directory: /Users/aironman/git/IA_DeepLearning_Course/Dimensions.build
+[2023-10-31T09:32:30.596183 3927 ] Source file: static_src/CompiledFunctionType.c
+[2023-10-31T09:32:30.596182 3926 ] Compiler type: clang
+[2023-10-31T09:32:30.596192 3923 ] Compiler type: clang
+[2023-10-31T09:32:30.596206 3927 ] Object file: static_src/CompiledFunctionType.o
+[2023-10-31T09:32:30.596222 3922 ] Trying direct lookup
+[2023-10-31T09:32:30.596232 3925 ] Source file: module.__main__.c
+[2023-10-31T09:32:30.596247 3925 ] Object file: module.__main__.o
+[2023-10-31T09:32:30.596272 3927 ] Trying direct lookup
+[2023-10-31T09:32:30.596293 3924 ] Source file: __loader.c
+[2023-10-31T09:32:30.596302 3925 ] Trying direct lookup
+[2023-10-31T09:32:30.596313 3924 ] Object file: __loader.o
+[2023-10-31T09:32:30.596337 3922 ] No manifest with name fe75v1u7i5kh0nlec9a3e73sj62u7l4ss in the cache
+[2023-10-31T09:32:30.596344 3926 ] Source file: static_src/MainProgram.c
+[2023-10-31T09:32:30.596360 3926 ] Object file: static_src/MainProgram.o
+[2023-10-31T09:32:30.596370 3924 ] Trying direct lookup
+[2023-10-31T09:32:30.596371 3923 ] Source file: __helpers.c
+[2023-10-31T09:32:30.596392 3923 ] Object file: __helpers.o
+[2023-10-31T09:32:30.596416 3926 ] Trying direct lookup
+[2023-10-31T09:32:30.596449 3923 ] Trying direct lookup
+[2023-10-31T09:32:30.596475 3924 ] No manifest with name 310bq2t0qgg995jo09e81qqs41jp8561o in the cache
+[2023-10-31T09:32:30.596538 3927 ] No manifest with name 6445i76krfhr3ruotm2fe4l1a64el8afo in the cache
+[2023-10-31T09:32:30.596568 3923 ] No manifest with name 3c5bctgivqho51frqhcqhvl7v2l82mikg in the cache
+[2023-10-31T09:32:30.596634 3925 ] No manifest with name 34507esmbiukm0ee6pq86vk3k73lfbc9m in the cache
+[2023-10-31T09:32:30.596647 3926 ] No manifest with name 0e73o1c8c3ndk5npivjvbe20cbkqs0576 in the cache
+[2023-10-31T09:32:30.598020 3924 ] Running preprocessor
+[2023-10-31T09:32:30.598049 3924 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -E __loader.c
+[2023-10-31T09:32:30.598091 3922 ] Running preprocessor
+[2023-10-31T09:32:30.598121 3922 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -E __constants.c
+[2023-10-31T09:32:30.598231 3926 ] Running preprocessor
+[2023-10-31T09:32:30.598262 3926 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -E static_src/MainProgram.c
+[2023-10-31T09:32:30.598342 3923 ] Running preprocessor
+[2023-10-31T09:32:30.598370 3927 ] Running preprocessor
+[2023-10-31T09:32:30.598387 3923 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -E __helpers.c
+[2023-10-31T09:32:30.598412 3927 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -E static_src/CompiledFunctionType.c
+[2023-10-31T09:32:30.598428 3925 ] Running preprocessor
+[2023-10-31T09:32:30.598463 3925 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -E module.__main__.c
+[2023-10-31T09:32:30.795788 3924 ] Got result name from preprocessor
+[2023-10-31T09:32:30.795831 3924 ] No result with name 9f81jn1tub0fluu8k3hlooh0njniidhec in the cache
+[2023-10-31T09:32:30.795845 3924 ] Running real compiler
+[2023-10-31T09:32:30.796123 3924 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -c -fcolor-diagnostics -o __loader.o __loader.c
+[2023-10-31T09:32:30.824962 3923 ] Got result name from preprocessor
+[2023-10-31T09:32:30.824986 3922 ] Got result name from preprocessor
+[2023-10-31T09:32:30.825036 3923 ] No result with name 5f5eq11anv7ogpu6pfe1o2cac1tprrgi4 in the cache
+[2023-10-31T09:32:30.825050 3922 ] No result with name 02dcv6hkgplthhafiue8h6t076b416st2 in the cache
+[2023-10-31T09:32:30.825052 3923 ] Running real compiler
+[2023-10-31T09:32:30.825065 3922 ] Running real compiler
+[2023-10-31T09:32:30.825539 3923 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -c -fcolor-diagnostics -o __helpers.o __helpers.c
+[2023-10-31T09:32:30.825722 3922 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -c -fcolor-diagnostics -o __constants.o __constants.c
+[2023-10-31T09:32:30.826486 3926 ] Got result name from preprocessor
+[2023-10-31T09:32:30.826523 3926 ] No result with name d500t553bts4j2el5haoj0r8tl8gbijau in the cache
+[2023-10-31T09:32:30.826536 3926 ] Running real compiler
+[2023-10-31T09:32:30.826900 3926 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/MainProgram.o static_src/MainProgram.c
+[2023-10-31T09:32:30.828829 3925 ] Got result name from preprocessor
+[2023-10-31T09:32:30.828876 3925 ] No result with name bbc3mqv6rumlg1iko0kfkvrdc58tjsed4 in the cache
+[2023-10-31T09:32:30.828895 3925 ] Running real compiler
+[2023-10-31T09:32:30.829159 3925 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -c -fcolor-diagnostics -o module.__main__.o module.__main__.c
+[2023-10-31T09:32:30.937293 3924 ] Using default compression level 1
+[2023-10-31T09:32:30.937402 3924 ] Storing result __loader.o
+[2023-10-31T09:32:30.937418 3924 ] Storing embedded file #0 .o (4080 bytes) from __loader.o
+[2023-10-31T09:32:30.937665 3924 ] Stored in cache: /Users/aironman/Library/Caches/Nuitka/ccache/9/f/81jn1tub0fluu8k3hlooh0njniidhecR
+[2023-10-31T09:32:30.937839 3924 ] Adding result name to /Users/aironman/Library/Caches/Nuitka/ccache/3/1/0bq2t0qgg995jo09e81qqs41jp8561oM
+[2023-10-31T09:32:30.939681 3924 ] Using default compression level 1
+[2023-10-31T09:32:30.940412 3924 ] Result: cache miss
+[2023-10-31T09:32:30.940589 3924 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:30.940979 3924 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:30.941087 3924 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:30.941160 3924 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/9/stats.lock
+[2023-10-31T09:32:30.941460 3924 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/9/stats.lock
+[2023-10-31T09:32:30.941556 3924 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/9/stats.lock
+[2023-10-31T09:32:30.941607 3924 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.pzRNPx
+[2023-10-31T09:32:30.941670 3924 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.b8HlVI
+[2023-10-31T09:32:30.941775 3924 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.nsaT1d
+[2023-10-31T09:32:30.941852 3924 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.EDeogm.i
+[2023-10-31T09:32:30.942136 3924 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.EDeogm
+[2023-10-31T09:32:30.988057 3923 ] Using default compression level 1
+[2023-10-31T09:32:30.988166 3923 ] Storing result __helpers.o
+[2023-10-31T09:32:30.988181 3923 ] Storing embedded file #0 .o (1792 bytes) from __helpers.o
+[2023-10-31T09:32:30.988462 3923 ] Stored in cache: /Users/aironman/Library/Caches/Nuitka/ccache/5/f/5eq11anv7ogpu6pfe1o2cac1tprrgi4R
+[2023-10-31T09:32:30.988707 3923 ] Adding result name to /Users/aironman/Library/Caches/Nuitka/ccache/3/c/5bctgivqho51frqhcqhvl7v2l82mikgM
+[2023-10-31T09:32:30.991529 3923 ] Using default compression level 1
+[2023-10-31T09:32:30.992480 3927 ] Got result name from preprocessor
+[2023-10-31T09:32:30.992566 3927 ] No result with name 7f0fkt2ohc527uch0dfu4c9lqcnfknlp2 in the cache
+[2023-10-31T09:32:30.992614 3927 ] Running real compiler
+[2023-10-31T09:32:30.992839 3923 ] Result: cache miss
+[2023-10-31T09:32:30.992952 3927 ] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/local/anaconda3/include/python3.11 -I. -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/include -I/Users/aironman/git/Nuitka-1.6.6/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/CompiledFunctionType.o static_src/CompiledFunctionType.c
+[2023-10-31T09:32:30.992952 3923 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:30.993751 3923 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:30.993815 3923 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:30.993905 3923 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/5/stats.lock
+[2023-10-31T09:32:30.994243 3923 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/5/stats.lock
+[2023-10-31T09:32:30.994353 3923 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/5/stats.lock
+[2023-10-31T09:32:30.994451 3923 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.VBwVzD
+[2023-10-31T09:32:30.994536 3923 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.m5FoD2
+[2023-10-31T09:32:30.994597 3923 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.WfQnoT
+[2023-10-31T09:32:30.994670 3923 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.FfsnvH.i
+[2023-10-31T09:32:30.994827 3923 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.FfsnvH
+[2023-10-31T09:32:30.997498 3922 ] Using default compression level 1
+[2023-10-31T09:32:30.997710 3922 ] Storing result __constants.o
+[2023-10-31T09:32:30.997741 3922 ] Storing embedded file #0 .o (7168 bytes) from __constants.o
+[2023-10-31T09:32:30.998300 3922 ] Stored in cache: /Users/aironman/Library/Caches/Nuitka/ccache/0/2/dcv6hkgplthhafiue8h6t076b416st2R
+[2023-10-31T09:32:30.998668 3922 ] Adding result name to /Users/aironman/Library/Caches/Nuitka/ccache/f/e/75v1u7i5kh0nlec9a3e73sj62u7l4ssM
+[2023-10-31T09:32:31.002027 3922 ] Using default compression level 1
+[2023-10-31T09:32:31.002655 3922 ] Result: cache miss
+[2023-10-31T09:32:31.002741 3922 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/f/stats.lock
+[2023-10-31T09:32:31.003123 3922 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/f/stats.lock
+[2023-10-31T09:32:31.003239 3922 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/f/stats.lock
+[2023-10-31T09:32:31.003412 3922 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-10-31T09:32:31.003708 3922 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-10-31T09:32:31.003826 3922 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-10-31T09:32:31.003873 3922 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.VAZ11k
+[2023-10-31T09:32:31.003915 3922 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.J1kmL4
+[2023-10-31T09:32:31.004017 3922 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.bQKQMl
+[2023-10-31T09:32:31.004148 3922 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.72cSZh.i
+[2023-10-31T09:32:31.004313 3922 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.72cSZh
+[2023-10-31T09:32:31.020593 3926 ] Using default compression level 1
+[2023-10-31T09:32:31.020690 3926 ] Storing result static_src/MainProgram.o
+[2023-10-31T09:32:31.020704 3926 ] Storing embedded file #0 .o (24912 bytes) from static_src/MainProgram.o
+[2023-10-31T09:32:31.021147 3926 ] Stored in cache: /Users/aironman/Library/Caches/Nuitka/ccache/d/5/00t553bts4j2el5haoj0r8tl8gbijauR
+[2023-10-31T09:32:31.021335 3926 ] Adding result name to /Users/aironman/Library/Caches/Nuitka/ccache/0/e/73o1c8c3ndk5npivjvbe20cbkqs0576M
+[2023-10-31T09:32:31.023767 3926 ] Using default compression level 1
+[2023-10-31T09:32:31.024408 3926 ] Result: cache miss
+[2023-10-31T09:32:31.024518 3926 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-10-31T09:32:31.024899 3926 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-10-31T09:32:31.024958 3926 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-10-31T09:32:31.025041 3926 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/d/stats.lock
+[2023-10-31T09:32:31.025413 3926 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/d/stats.lock
+[2023-10-31T09:32:31.025482 3926 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/d/stats.lock
+[2023-10-31T09:32:31.025551 3926 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.aXJKUp
+[2023-10-31T09:32:31.025613 3926 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.EzFo0u
+[2023-10-31T09:32:31.025673 3926 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.ZwmmO1
+[2023-10-31T09:32:31.025747 3926 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.MHu3Vz.i
+[2023-10-31T09:32:31.025895 3926 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.MHu3Vz
+[2023-10-31T09:32:31.212245 3925 ] Using default compression level 1
+[2023-10-31T09:32:31.212345 3925 ] Storing result module.__main__.o
+[2023-10-31T09:32:31.212358 3925 ] Storing embedded file #0 .o (87584 bytes) from module.__main__.o
+[2023-10-31T09:32:31.213179 3925 ] Stored in cache: /Users/aironman/Library/Caches/Nuitka/ccache/b/b/c3mqv6rumlg1iko0kfkvrdc58tjsed4R
+[2023-10-31T09:32:31.213372 3925 ] Adding result name to /Users/aironman/Library/Caches/Nuitka/ccache/3/4/507esmbiukm0ee6pq86vk3k73lfbc9mM
+[2023-10-31T09:32:31.215505 3925 ] Using default compression level 1
+[2023-10-31T09:32:31.216227 3925 ] Result: cache miss
+[2023-10-31T09:32:31.216321 3925 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:31.216721 3925 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:31.216772 3925 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/3/stats.lock
+[2023-10-31T09:32:31.216894 3925 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/b/stats.lock
+[2023-10-31T09:32:31.217308 3925 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/b/stats.lock
+[2023-10-31T09:32:31.217405 3925 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/b/stats.lock
+[2023-10-31T09:32:31.217516 3925 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.fb2gm3
+[2023-10-31T09:32:31.217604 3925 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.VgQNuo
+[2023-10-31T09:32:31.217691 3925 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.C2oW7i
+[2023-10-31T09:32:31.217747 3925 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.EapHmu.i
+[2023-10-31T09:32:31.217892 3925 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.EapHmu
+[2023-10-31T09:32:35.589872 3927 ] Using default compression level 1
+[2023-10-31T09:32:35.589976 3927 ] Storing result static_src/CompiledFunctionType.o
+[2023-10-31T09:32:35.589991 3927 ] Storing embedded file #0 .o (1457968 bytes) from static_src/CompiledFunctionType.o
+[2023-10-31T09:32:35.595568 3927 ] Stored in cache: /Users/aironman/Library/Caches/Nuitka/ccache/7/f/0fkt2ohc527uch0dfu4c9lqcnfknlp2R
+[2023-10-31T09:32:35.595798 3927 ] Adding result name to /Users/aironman/Library/Caches/Nuitka/ccache/6/4/45i76krfhr3ruotm2fe4l1a64el8afoM
+[2023-10-31T09:32:35.598914 3927 ] Using default compression level 1
+[2023-10-31T09:32:35.599648 3927 ] Result: cache miss
+[2023-10-31T09:32:35.599752 3927 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/6/stats.lock
+[2023-10-31T09:32:35.600120 3927 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/6/stats.lock
+[2023-10-31T09:32:35.600179 3927 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/6/stats.lock
+[2023-10-31T09:32:35.600269 3927 ] Acquired lock /Users/aironman/Library/Caches/Nuitka/ccache/7/stats.lock
+[2023-10-31T09:32:35.600531 3927 ] Releasing lock /Users/aironman/Library/Caches/Nuitka/ccache/7/stats.lock
+[2023-10-31T09:32:35.600590 3927 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/7/stats.lock
+[2023-10-31T09:32:35.600646 3927 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.FtxRko
+[2023-10-31T09:32:35.600705 3927 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.F0WwAZ
+[2023-10-31T09:32:35.600763 3927 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.df6d1a
+[2023-10-31T09:32:35.600829 3927 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.zBR5CR.i
+[2023-10-31T09:32:35.601031 3927 ] Unlink /Users/aironman/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.zBR5CR
