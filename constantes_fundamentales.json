@@ -37,11 +37,7 @@
     },
     {
         "constante": "μ₀",
-<<<<<<< HEAD
         "valor": 1.2566370614448095e-06,
-=======
-        "valor": 0.000007853981633974483,
->>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
         "unidad": "H m^-1",
         "definicion": "Permeabilidad magnética del vacío"
     },
@@ -137,13 +133,8 @@
     },
     {
         "constante": "β",
-<<<<<<< HEAD
         "valor": 0.7071067811865475,
         "unidad": "m/s",
-=======
-        "valor": 0.7071067811865476,
-        "unidad": "",
->>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
         "definicion": "Constante de Dirac"
     },
     {
@@ -291,10 +282,6 @@
     },
     {
         "constante": "c_21",
-<<<<<<< HEAD
-=======
-        
->>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
         "valor": 0.00000000002,
         "unidad": "GeV^21",
         "definicion": "Constante de acoplamiento fuerte de vigésimo primer orden"
@@ -385,11 +372,7 @@
     },
     {
         "constante": "µ_0",
-<<<<<<< HEAD
         "valor": 1.2566370614448095e-06,
-=======
-        "valor": 0.000007853981633974483,
->>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
         "unidad": "H m^-1",
         "definicion": "Permeabilidad magnética del vacío"
     },
@@ -682,11 +665,7 @@
         "definicion": "Masa del lambda barión bottomado"
     },
     {
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
         "constante": "m_Σ_b+",
         "valor": 5.80732,
         "unidad": "GeV",
@@ -778,11 +757,7 @@
     },
     {
         "constante": "α_p",
-<<<<<<< HEAD
         "valor": 0.00737499295,
-=======
-        "valor": 0.00729735257,
->>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
         "unidad": "",
         "definicion": "Constante de estructura fina nuclear"
     },
@@ -900,11 +875,7 @@
         "unidad": "GeV",
         "definicion": "Masa del meson D"
     },
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
     {
         "constante": "m_D",
         "valor": 1.86483,
@@ -994,7 +965,6 @@
         "valor": 1.32171,
         "unidad": "GeV",
         "definicion": "Masa del Xi barión positivo"
-<<<<<<< HEAD
     },
     {
         "constante": "m_Ξ-",
@@ -1010,7 +980,3 @@
     }
 
 ]
-=======
-    }
-]
->>>>>>> 021554b9d33a9778fdfa1adde563def58366a1eb
