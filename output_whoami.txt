@@ -1,0 +1,710 @@
+/Users/aironman/git/IA_DeepLearning_Course/venv/bin/python /Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevd.py --multiprocess --qt-support=auto --client 127.0.0.1 --port 49576 --file /Users/aironman/git/IA_DeepLearning_Course/whoami.py
+Connected to pydev debugger (build 232.10072.31)
+2023-11-13 11:23:32.262403: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+GPU disponible
+Creating model. num_frames:  500
+Training model...
+Backend MacOSX is interactive backend. Turning interactive mode on.
+Creating siamese model...
+distance:  KerasTensor(type_spec=TensorSpec(shape=(None, 256), dtype=tf.float32, name=None), name='lambda/Abs:0', description="created by layer 'lambda'")
+Siamese model created.
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to
+==================================================================================================
+ input_2 (InputLayer)        [(None, 96, 96, 3)]          0         []
+
+ input_3 (InputLayer)        [(None, 96, 96, 3)]          0         []
+
+ sequential (Sequential)     (None, 256)                  1593561   ['input_2[0][0]',
+                                                          6          'input_3[0][0]']
+
+ lambda (Lambda)             (None, 256)                  0         ['sequential[0][0]',
+                                                                     'sequential[1][0]']
+
+==================================================================================================
+Total params: 15935616 (60.79 MB)
+Trainable params: 15935616 (60.79 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+Epoch 1/8
+2813/2813 [==============================] - 1307s 463ms/step - loss: 0.0516 - accuracy: 0.9943 - lr: 0.0010
+WARNING:tensorflow:Learning rate reduction is conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Can save best model only with val_accuracy available, skipping.
+Epoch 2/8
+2813/2813 [==============================] - 1267s 450ms/step - loss: 0.0514 - accuracy: 0.9967 - lr: 0.0010
+WARNING:tensorflow:Learning rate reduction is conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Can save best model only with val_accuracy available, skipping.
+Epoch 3/8
+2813/2813 [==============================] - 1274s 453ms/step - loss: 0.0514 - accuracy: 0.9967 - lr: 0.0010
+WARNING:tensorflow:Learning rate reduction is conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Can save best model only with val_accuracy available, skipping.
+Epoch 4/8
+2813/2813 [==============================] - 1275s 453ms/step - loss: 0.0514 - accuracy: 0.9967 - lr: 0.0010
+WARNING:tensorflow:Learning rate reduction is conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Can save best model only with val_accuracy available, skipping.
+Epoch 5/8
+2813/2813 [==============================] - 1295s 460ms/step - loss: 0.0514 - accuracy: 0.9967 - lr: 0.0010
+WARNING:tensorflow:Learning rate reduction is conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Can save best model only with val_accuracy available, skipping.
+Epoch 6/8
+2813/2813 [==============================] - 1283s 456ms/step - loss: 0.0514 - accuracy: 0.9967 - lr: 0.0010
+WARNING:tensorflow:Learning rate reduction is conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Can save best model only with val_accuracy available, skipping.
+Epoch 7/8
+2813/2813 [==============================] - 1272s 452ms/step - loss: 0.0514 - accuracy: 0.9967 - lr: 0.0010
+WARNING:tensorflow:Learning rate reduction is conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Can save best model only with val_accuracy available, skipping.
+Epoch 8/8
+2813/2813 [==============================] - 1556s 553ms/step - loss: 0.0514 - accuracy: 0.9967 - lr: 0.0010
+WARNING:tensorflow:Learning rate reduction is conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,accuracy,lr
+WARNING:tensorflow:Can save best model only with val_accuracy available, skipping.
+Model trained...
+/Users/aironman/git/IA_DeepLearning_Course/venv/lib/python3.11/site-packages/keras/src/engine/training.py:3079: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+model modelo.h5 saved in folder
+Modelo cargado exitosamente.
+1/1 [==============================] - 0s 315ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 30ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 31ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 33ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 32ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 32ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 34ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 30ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 30ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 31ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 31ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 20ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 20ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 34ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 30ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 32ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 30ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 29ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 30ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 28ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 27ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 25ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 21ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 22ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 26ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 24ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+1/1 [==============================] - 0s 23ms/step
+prediccion:  0.0
+Done!
+
+Process finished with exit code 0
